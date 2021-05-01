@@ -209,6 +209,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #527158;
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
 }
 footer .copyright {
   margin: 20px 0;
