@@ -90,28 +90,33 @@ textarea {
 html {
   font-size: 16px;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
 }
+
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
   margin: 0;
 }
+
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
@@ -119,19 +124,24 @@ h4 {
   font-weight: 500;
   margin: 20px 0;
 }
+
 p {
-  font-size: 0.875em;
+  font-size: .875em;
   line-height: 1.285;
 }
+
 img {
   width: 100%;
 }
+
 figure {
   margin: 0;
 }
+
 address {
   font-style: normal;
 }
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -150,18 +160,18 @@ header {
   padding: 15px 0;
 }
 header .content-wrapper {
-  flex-flow: row wrap;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: 0;
 }
 header figure {
-  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 .header-divider {
   width: 100%;
@@ -170,11 +180,11 @@ header figure {
   background: #3a3a3a;
 }
 header nav {
+  display: flex;
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
@@ -189,8 +199,8 @@ header nav ul li {
 }
 
 footer {
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
 }
 footer p {
   margin: 0;
@@ -199,20 +209,22 @@ footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
+
 footer .contact {
   margin-bottom: 50px;
 }
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 footer .social-icons p {
+  display: flex;
   background-color: #527158;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -220,16 +232,14 @@ footer .social-icons p i {
   font-size: 1.3125em;
 }
 footer .copyright {
-  padding-top: 60px;
-  margin: 20px 0;
-  margin-bottom: 0;
+  padding-top: 80px;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 .hero-area {
   display: flex;
-  justify-content: center;
   flex-flow: row wrap;
+  justify-content: center;
   background-image: url(../img/woman-retreat.jpg);
   background-size: cover;
   background-position: center;
@@ -242,15 +252,18 @@ footer .copyright {
   line-height: 1.2;
 }
 
+/* -------------------- Aside -------------------- */
 aside {
-  flex-flow: row wrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   background-color: #537158;
 }
+
 aside .form {
   margin-top: 30px;
+  padding: 5px 15px 50px 15px;
 }
  
 input[type=text] {
@@ -284,6 +297,7 @@ input[type=button] {
   background-position: center;
 }
 .features h2 {
+  margin-top: 30px;
   margin-bottom: 60px;
 }
 .features article {
@@ -291,10 +305,10 @@ input[type=button] {
   margin: 30px 0;
 }
 .features .features-items {
-  flex-flow: row wrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 .features i {
   font-size: 3.75em;
@@ -314,6 +328,7 @@ input[type=button] {
 }
 
 .reviews h2 {
+  margin-top: 30px;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -326,8 +341,8 @@ input[type=button] {
    About Page
    ========================================================================== */
 .mission {
-  flex-flow: row wrap;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   background-color: #527158;
@@ -347,12 +362,12 @@ input[type=button] {
   left: 0;
 }
 .contact-section {
-  background-color: #2a423a;
   display: flex;
+  background-color: #2a423a;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 80px 0 80px 0;
+  padding: 10%;
 }
 .contact-content p {
   margin: 0;
@@ -362,15 +377,15 @@ input[type=button] {
    FAQ Page
    ========================================================================== */
  .faq {
+  display: flex;
    flex-flow: row wrap;
-   display: flex;
    justify-content: center;
    align-items: center;
    background-color: #527158;
  }
  .faq .content-wrapper {
+  display: flex;
    flex-flow: row wrap;
-   display: flex;
    justify-content: center;
    align-items: center;
    margin: 50px 0 0 0;
@@ -526,6 +541,7 @@ header nav ul {
   margin: 0;
 }
 
+/* Aside */
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
@@ -656,7 +672,7 @@ FAQ Page
   line-height: 1.125;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
 /*Desktop styles here*/
 
 header {
@@ -664,7 +680,7 @@ header {
 }
 
 .content-wrapper {
-  max-width: 960%;
+  max-width: 960px;
 }
 h2 {
   font-size: 2.25em;
@@ -711,7 +727,7 @@ aside .content-wrapper .form {
   padding-bottom: 50px;
 }
 .reviews article div {
-  width: 42%;
+  width: 80%;
 }
 footer h4 {
   font-size: 1.875em;
